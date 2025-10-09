@@ -1,0 +1,21 @@
+1. Qual melhor modelo, em termos de desempenho:
+    MRR
+    Hits@10
+    Por Dataset (diferentes facetts)
+    cor = tipo de modelo
+
+2. Qual modelo com melhor tempo de treinamento:
+    Train Time
+    Por Datasets (diferentes facetts)
+    cor = tipo de modelo
+
+3. Qual modelo com melhor tempo de inferencia:
+    Inference Time
+    Por Datasets (diferentes facetts)
+    cor = tipo de modelo
+
+
+extra: 
+Warnings no R-GCN
+Warnings no conv_kb
+Warnings no ConvE
