@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -n 48
+#SBATCH -n 16
 #SBATCH -p tupi
 WORKDIR=/home/grkremer/perf_2026
 
