@@ -54,8 +54,12 @@ def run_experiment(model_name: str, dataset_name: str, epochs: int = 100,
         dataset = get_dataset(dataset=dataset_name)
 
         # --- Treino + avaliação do PyKEEN
+        sampler = "schlichtkrull" if model_name == "R-GCN" else "basic"
         result = pipeline(
             model=model_name,
+            model_kwargs=dict(
+                embedding_dim=200,
+                sampler=sampler),
             dataset=dataset_name,
             epochs=epochs,
             device=device,
