@@ -1,0 +1,544 @@
+
+# conda environments:
+#
+base                 * /home/users/grkremer/miniconda3
+perf_2026              /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+INFO:pykeen.training.training_loop:Starting sub_batch_size search for training now...
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+WARNING:pykeen.nn.message_passing:Layers RGCNLayer(
+  (fwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (bwd): BasesDecomposition(
+    (relation_representations): LowRankRepresentation(
+      (base): Embedding(
+        (_embeddings): Embedding(19, 40000)
+      )
+      (weight): Embedding(
+        (_embeddings): Embedding(351, 19)
+      )
+    )
+  )
+  (self_loop): Linear(in_features=200, out_features=200, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+) has parameters, but no reset_parameters.
+INFO:pykeen.training.training_loop:Even sub_batch_size=1 does not fit in memory with these parameters
+WARNING:pykeen.training.slcwa:This model supports sub-batching, but it also requires slicing, which is not possible for sLCWA
+Running R-GCN on DBPedia50
+Traceback (most recent call last):
+  File "/home/users/grkremer/perf_2026-1/train_and_eval.py", line 17, in <module>
+    df = run_experiment(model_name=model_name, dataset_name=dataset, batch_size=256, test_batch_size=32, epochs=50, device="cuda", seed=1, n_tests = 5, inference_batch_size=1)
+  File "/home/users/grkremer/perf_2026-1/train_and_eval_functions.py", line 58, in run_experiment
+    result = pipeline(
+        model=model_name,
+    ...<11 lines>...
+        evaluation_kwargs=dict(slice_size = slice_size)
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1540, in pipeline
+    stopper_instance, configuration, losses, train_seconds = _handle_training(
+                                                             ~~~~~~~~~~~~~~~~^
+        _result_tracker=_result_tracker,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        use_tqdm=use_tqdm,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1181, in _handle_training
+    losses = training_loop_instance.train(
+        triples_factory=training,
+    ...<2 lines>...
+        **training_kwargs,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 383, in train
+    result = self._train(
+        num_epochs=num_epochs,
+    ...<25 lines>...
+        pin_memory=pin_memory,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 589, in _train
+    sub_batch_size, slice_size = self.sub_batch_and_slice(
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        batch_size=batch_size, sampler=sampler, triples_factory=triples_factory
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 971, in sub_batch_and_slice
+    slice_size = self._slice_size_search(
+        triples_factory=triples_factory,
+    ...<2 lines>...
+        supports_sub_batching=supports_sub_batching,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/slcwa.py", line 183, in _slice_size_search
+    raise MemoryError("The current model can't be trained on this hardware with these parameters.")
+MemoryError: The current model can't be trained on this hardware with these parameters.
+slurmstepd: error: *** JOB 728111 ON tupi2 CANCELLED AT 2025-10-14T11:37:27 DUE TO TIME LIMIT ***

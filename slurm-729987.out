@@ -1,0 +1,86 @@
+
+# conda environments:
+#
+base                 * /home/users/grkremer/miniconda3
+perf_2026              /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+Retrieving notices: - \ | done
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+The ConvE model should be trained with inverse triples.
+This can be done by defining the TriplesFactory class with the _create_inverse_triples_ parameter set to true.
+Running ConvE on Nations
+Traceback (most recent call last):
+  File "/home/users/grkremer/perf_2026-1/train_and_eval.py", line 15, in <module>
+    df = run_experiment(model_name=model_name, dataset_name=dataset, batch_size=256, test_batch_size=32, epochs=50, device="cuda", seed=1, n_tests = 5, inference_batch_size=1)
+  File "/home/users/grkremer/perf_2026-1/train_and_eval_functions.py", line 58, in run_experiment
+    result = pipeline(
+        model=model_name,
+    ...<11 lines>...
+        evaluation_kwargs=dict(slice_size = slice_size)
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1540, in pipeline
+    stopper_instance, configuration, losses, train_seconds = _handle_training(
+                                                             ~~~~~~~~~~~~~~~~^
+        _result_tracker=_result_tracker,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        use_tqdm=use_tqdm,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1181, in _handle_training
+    losses = training_loop_instance.train(
+        triples_factory=training,
+    ...<2 lines>...
+        **training_kwargs,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 383, in train
+    result = self._train(
+        num_epochs=num_epochs,
+    ...<25 lines>...
+        pin_memory=pin_memory,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 589, in _train
+    sub_batch_size, slice_size = self.sub_batch_and_slice(
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        batch_size=batch_size, sampler=sampler, triples_factory=triples_factory
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 962, in sub_batch_and_slice
+    sub_batch_size, finished_search, supports_sub_batching = self._sub_batch_size_search(
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        batch_size=batch_size,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        sampler=sampler,
+        ^^^^^^^^^^^^^^^^
+        triples_factory=triples_factory,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 1036, in _sub_batch_size_search
+    self._train(
+    ~~~~~~~~~~~^
+        triples_factory=triples_factory,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        only_size_probing=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 649, in _train
+    train_data_loader = self._create_training_data_loader(
+        triples_factory,
+    ...<5 lines>...
+        sampler=sampler,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/slcwa.py", line 67, in _create_training_data_loader
+    raise ValueError(f"Invalid {sampler=}")
+ValueError: Invalid sampler='basic'
+slurmstepd: error: *** JOB 729987 ON tupi1 CANCELLED AT 2025-10-29T14:40:06 ***

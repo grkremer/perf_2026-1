@@ -54,17 +54,16 @@ def run_experiment(model_name: str, dataset_name: str, epochs: int = 100,
         dataset = get_dataset(dataset=dataset_name)
 
         # --- Treino + avaliação do PyKEEN
-        sampler = "schlichtkrull" if model_name == "R-GCN" else "basic"
+        sampler = "schlichtkrull" if model_name == "R-GCN" else None
         result = pipeline(
             model=model_name,
             model_kwargs=dict(
-                embedding_dim=200,
-                sampler=sampler),
+                embedding_dim=200),
             dataset=dataset_name,
             epochs=epochs,
             device=device,
             random_seed=seed, 
-            training_kwargs=dict(batch_size=batch_size, use_tqdm_batch=False,), # sampler="schlichtkrull" ISSO AQUI FAZ O NEGOCIO RODAR 10 VEZES MAIS LENTO!!!
+            training_kwargs=dict(batch_size=batch_size, use_tqdm_batch=False,sampler=sampler), # sampler="schlichtkrull" ISSO AQUI FAZ O NEGOCIO RODAR 10 VEZES MAIS LENTO!!!
             negative_sampler = "basic",
             negative_sampler_kwargs=dict(
             filtered=True),

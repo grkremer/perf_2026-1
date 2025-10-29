@@ -1,0 +1,90 @@
+
+# conda environments:
+#
+base                 * /home/users/grkremer/miniconda3
+perf_2026              /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+Retrieving notices: - \ done
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Running ConvE on FB15k-237
+Downloading FB15K-237.2.zip: 0.00B [00:00, ?B/s]Downloading FB15K-237.2.zip:   0%|          | 8.00k/139M [00:01<7:33:01, 5.38kB/s]Downloading FB15K-237.2.zip:   0%|          | 16.0k/139M [00:01<3:30:35, 11.6kB/s]Downloading FB15K-237.2.zip:   0%|          | 56.0k/139M [00:01<49:13, 49.5kB/s]  Downloading FB15K-237.2.zip:   0%|          | 96.0k/139M [00:02<28:33, 85.3kB/s]Downloading FB15K-237.2.zip:   0%|          | 208k/139M [00:02<11:42, 208kB/s]  Downloading FB15K-237.2.zip:   0%|          | 376k/139M [00:02<06:18, 385kB/s]Downloading FB15K-237.2.zip:   0%|          | 696k/139M [00:02<03:12, 755kB/s]Downloading FB15K-237.2.zip:   1%|          | 1.13M/139M [00:02<01:55, 1.26MB/s]Downloading FB15K-237.2.zip:   1%|▏         | 1.84M/139M [00:02<01:10, 2.06MB/s]Downloading FB15K-237.2.zip:   1%|▏         | 2.01M/139M [00:03<02:00, 1.19MB/s]Downloading FB15K-237.2.zip:   2%|▏         | 3.16M/139M [00:03<00:59, 2.38MB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.01M/139M [00:04<01:34, 1.50MB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.02M/139M [00:04<01:49, 1.30MB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.05M/139M [00:04<01:59, 1.19MB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.09M/139M [00:04<02:22, 998kB/s] Downloading FB15K-237.2.zip:   3%|▎         | 4.20M/139M [00:05<02:34, 915kB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.41M/139M [00:05<02:24, 980kB/s]Downloading FB15K-237.2.zip:   3%|▎         | 4.76M/139M [00:05<01:52, 1.26MB/s]Downloading FB15K-237.2.zip:   4%|▍         | 5.31M/139M [00:05<01:18, 1.79MB/s]Downloading FB15K-237.2.zip:   4%|▍         | 6.01M/139M [00:06<01:20, 1.73MB/s]Downloading FB15K-237.2.zip:   6%|▌         | 8.01M/139M [00:06<00:42, 3.23MB/s]Downloading FB15K-237.2.zip:   7%|▋         | 10.0M/139M [00:06<00:32, 4.12MB/s]Downloading FB15K-237.2.zip:   9%|▊         | 12.0M/139M [00:07<00:30, 4.35MB/s]Downloading FB15K-237.2.zip:  10%|█         | 14.0M/139M [00:07<00:25, 5.07MB/s]Downloading FB15K-237.2.zip:  11%|█▏        | 16.0M/139M [00:07<00:24, 5.24MB/s]Downloading FB15K-237.2.zip:  13%|█▎        | 18.0M/139M [00:08<00:24, 5.26MB/s]Downloading FB15K-237.2.zip:  14%|█▍        | 20.0M/139M [00:08<00:22, 5.60MB/s]Downloading FB15K-237.2.zip:  16%|█▌        | 22.0M/139M [00:09<00:21, 5.70MB/s]Downloading FB15K-237.2.zip:  17%|█▋        | 24.0M/139M [00:09<00:21, 5.71MB/s]Downloading FB15K-237.2.zip:  18%|█▊        | 25.2M/139M [00:09<00:20, 5.94MB/s]Downloading FB15K-237.2.zip:  19%|█▊        | 26.0M/139M [00:09<00:24, 4.81MB/s]Downloading FB15K-237.2.zip:  20%|██        | 28.0M/139M [00:10<00:22, 5.21MB/s]Downloading FB15K-237.2.zip:  22%|██▏       | 30.0M/139M [00:10<00:20, 5.48MB/s]Downloading FB15K-237.2.zip:  23%|██▎       | 32.0M/139M [00:10<00:19, 5.66MB/s]Downloading FB15K-237.2.zip:  24%|██▍       | 34.0M/139M [00:11<00:18, 5.93MB/s]Downloading FB15K-237.2.zip:  26%|██▌       | 36.0M/139M [00:11<00:19, 5.53MB/s]Downloading FB15K-237.2.zip:  27%|██▋       | 38.0M/139M [00:12<00:19, 5.53MB/s]Downloading FB15K-237.2.zip:  28%|██▊       | 39.1M/139M [00:12<00:16, 6.20MB/s]Downloading FB15K-237.2.zip:  29%|██▊       | 40.0M/139M [00:12<00:16, 6.47MB/s]Downloading FB15K-237.2.zip:  29%|██▊       | 40.0M/139M [00:12<00:26, 3.94MB/s]Downloading FB15K-237.2.zip:  30%|██▉       | 41.8M/139M [00:13<00:23, 4.37MB/s]Downloading FB15K-237.2.zip:  30%|███       | 42.0M/139M [00:13<00:32, 3.11MB/s]Downloading FB15K-237.2.zip:  32%|███▏      | 44.0M/139M [00:13<00:26, 3.71MB/s]Downloading FB15K-237.2.zip:  33%|███▎      | 46.0M/139M [00:14<00:22, 4.35MB/s]Downloading FB15K-237.2.zip:  34%|███▍      | 48.0M/139M [00:14<00:21, 4.55MB/s]Downloading FB15K-237.2.zip:  36%|███▌      | 50.0M/139M [00:14<00:19, 4.84MB/s]Downloading FB15K-237.2.zip:  37%|███▋      | 52.0M/139M [00:15<00:17, 5.16MB/s]Downloading FB15K-237.2.zip:  39%|███▊      | 54.0M/139M [00:15<00:16, 5.32MB/s]Downloading FB15K-237.2.zip:  40%|███▉      | 55.3M/139M [00:15<00:15, 5.52MB/s]Downloading FB15K-237.2.zip:  40%|███▉      | 55.4M/139M [00:16<00:19, 4.54MB/s]Downloading FB15K-237.2.zip:  40%|███▉      | 55.5M/139M [00:16<00:24, 3.64MB/s]Downloading FB15K-237.2.zip:  40%|███▉      | 55.6M/139M [00:16<00:29, 3.01MB/s]Downloading FB15K-237.2.zip:  40%|████      | 55.8M/139M [00:16<00:34, 2.54MB/s]Downloading FB15K-237.2.zip:  40%|████      | 56.0M/139M [00:17<00:51, 1.69MB/s]Downloading FB15K-237.2.zip:  42%|████▏     | 58.0M/139M [00:17<00:27, 3.12MB/s]Downloading FB15K-237.2.zip:  43%|████▎     | 60.0M/139M [00:17<00:20, 4.00MB/s]Downloading FB15K-237.2.zip:  44%|████▍     | 62.0M/139M [00:18<00:17, 4.77MB/s]Downloading FB15K-237.2.zip:  46%|████▌     | 64.0M/139M [00:18<00:14, 5.30MB/s]Downloading FB15K-237.2.zip:  47%|████▋     | 66.0M/139M [00:18<00:13, 5.52MB/s]Downloading FB15K-237.2.zip:  49%|████▉     | 68.0M/139M [00:19<00:14, 5.07MB/s]Downloading FB15K-237.2.zip:  50%|█████     | 70.0M/139M [00:19<00:14, 4.98MB/s]Downloading FB15K-237.2.zip:  52%|█████▏    | 72.0M/139M [00:20<00:13, 5.14MB/s]Downloading FB15K-237.2.zip:  53%|█████▎    | 74.0M/139M [00:20<00:12, 5.34MB/s]Downloading FB15K-237.2.zip:  55%|█████▍    | 76.0M/139M [00:20<00:12, 5.51MB/s]Downloading FB15K-237.2.zip:  56%|█████▌    | 78.0M/139M [00:21<00:11, 5.48MB/s]Downloading FB15K-237.2.zip:  57%|█████▋    | 80.0M/139M [00:21<00:11, 5.43MB/s]Downloading FB15K-237.2.zip:  59%|█████▉    | 82.0M/139M [00:21<00:10, 5.71MB/s]Downloading FB15K-237.2.zip:  60%|██████    | 84.0M/139M [00:22<00:09, 5.92MB/s]Downloading FB15K-237.2.zip:  62%|██████▏   | 86.0M/139M [00:22<00:10, 5.52MB/s]Downloading FB15K-237.2.zip:  63%|██████▎   | 88.0M/139M [00:23<00:09, 5.60MB/s]Downloading FB15K-237.2.zip:  65%|██████▍   | 90.0M/139M [00:23<00:09, 5.71MB/s]Downloading FB15K-237.2.zip:  66%|██████▌   | 92.0M/139M [00:23<00:08, 5.61MB/s]Downloading FB15K-237.2.zip:  67%|██████▋   | 94.0M/139M [00:24<00:08, 5.89MB/s]Downloading FB15K-237.2.zip:  69%|██████▉   | 96.0M/139M [00:24<00:07, 5.89MB/s]Downloading FB15K-237.2.zip:  70%|███████   | 98.0M/139M [00:24<00:07, 5.92MB/s]Downloading FB15K-237.2.zip:  72%|███████▏  | 100M/139M [00:25<00:06, 5.91MB/s] Downloading FB15K-237.2.zip:  73%|███████▎  | 102M/139M [00:25<00:06, 5.98MB/s]Downloading FB15K-237.2.zip:  75%|███████▍  | 104M/139M [00:25<00:06, 6.04MB/s]Downloading FB15K-237.2.zip:  76%|███████▌  | 106M/139M [00:26<00:05, 6.12MB/s]Downloading FB15K-237.2.zip:  77%|███████▋  | 108M/139M [00:26<00:05, 6.04MB/s]Downloading FB15K-237.2.zip:  79%|███████▉  | 110M/139M [00:26<00:05, 5.76MB/s]Downloading FB15K-237.2.zip:  80%|███████▉  | 111M/139M [00:26<00:04, 6.12MB/s]Downloading FB15K-237.2.zip:  80%|████████  | 112M/139M [00:27<00:04, 6.42MB/s]Downloading FB15K-237.2.zip:  80%|████████  | 112M/139M [00:27<00:06, 4.12MB/s]Downloading FB15K-237.2.zip:  82%|████████▏ | 114M/139M [00:27<00:05, 4.70MB/s]Downloading FB15K-237.2.zip:  83%|████████▎ | 116M/139M [00:28<00:04, 5.03MB/s]Downloading FB15K-237.2.zip:  85%|████████▍ | 118M/139M [00:28<00:04, 5.36MB/s]Downloading FB15K-237.2.zip:  86%|████████▌ | 120M/139M [00:28<00:03, 5.64MB/s]Downloading FB15K-237.2.zip:  87%|████████▋ | 122M/139M [00:29<00:02, 6.84MB/s]Downloading FB15K-237.2.zip:  87%|████████▋ | 122M/139M [00:29<00:03, 5.01MB/s]Downloading FB15K-237.2.zip:  89%|████████▉ | 124M/139M [00:29<00:03, 5.38MB/s]Downloading FB15K-237.2.zip:  90%|█████████ | 126M/139M [00:30<00:02, 5.63MB/s]Downloading FB15K-237.2.zip:  92%|█████████▏| 128M/139M [00:30<00:02, 5.76MB/s]Downloading FB15K-237.2.zip:  93%|█████████▎| 130M/139M [00:30<00:01, 6.19MB/s]Downloading FB15K-237.2.zip:  95%|█████████▍| 132M/139M [00:31<00:01, 6.01MB/s]Downloading FB15K-237.2.zip:  96%|█████████▌| 134M/139M [00:31<00:01, 4.24MB/s]Downloading FB15K-237.2.zip:  96%|█████████▌| 134M/139M [00:31<00:01, 3.70MB/s]Downloading FB15K-237.2.zip:  96%|█████████▌| 134M/139M [00:32<00:01, 3.14MB/s]Downloading FB15K-237.2.zip:  96%|█████████▌| 134M/139M [00:32<00:02, 2.61MB/s]Downloading FB15K-237.2.zip:  96%|█████████▌| 134M/139M [00:32<00:02, 2.17MB/s]Downloading FB15K-237.2.zip:  96%|█████████▋| 134M/139M [00:32<00:02, 1.87MB/s]Downloading FB15K-237.2.zip:  97%|█████████▋| 135M/139M [00:32<00:02, 1.82MB/s]Downloading FB15K-237.2.zip:  97%|█████████▋| 135M/139M [00:33<00:02, 2.04MB/s]Downloading FB15K-237.2.zip:  97%|█████████▋| 136M/139M [00:33<00:01, 2.78MB/s]Downloading FB15K-237.2.zip:  98%|█████████▊| 136M/139M [00:33<00:01, 2.07MB/s]Downloading FB15K-237.2.zip:  98%|█████████▊| 137M/139M [00:33<00:00, 3.08MB/s]Downloading FB15K-237.2.zip:  99%|█████████▉| 138M/139M [00:33<00:00, 3.56MB/s]                                                                               You're trying to map triples with 30 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+In total 28 from 20466 triples were filtered out
+You're trying to map triples with 9 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+In total 9 from 17535 triples were filtered out
+
+The ConvE model should be trained with inverse triples.
+This can be done by defining the TriplesFactory class with the _create_inverse_triples_ parameter set to true.
+Traceback (most recent call last):
+  File "/home/users/grkremer/perf_2026-1/train_and_eval.py", line 15, in <module>
+    df = run_experiment(model_name=model_name, dataset_name=dataset, batch_size=256, test_batch_size=32, epochs=50, device="cuda", seed=1, n_tests = 5, inference_batch_size=1)
+  File "/home/users/grkremer/perf_2026-1/train_and_eval_functions.py", line 58, in run_experiment
+    result = pipeline(
+        model=model_name,
+    ...<11 lines>...
+        evaluation_kwargs=dict(slice_size = slice_size)
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1540, in pipeline
+    stopper_instance, configuration, losses, train_seconds = _handle_training(
+                                                             ~~~~~~~~~~~~~~~~^
+        _result_tracker=_result_tracker,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        use_tqdm=use_tqdm,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/pipeline/api.py", line 1181, in _handle_training
+    losses = training_loop_instance.train(
+        triples_factory=training,
+    ...<2 lines>...
+        **training_kwargs,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 383, in train
+    result = self._train(
+        num_epochs=num_epochs,
+    ...<25 lines>...
+        pin_memory=pin_memory,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 589, in _train
+    sub_batch_size, slice_size = self.sub_batch_and_slice(
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        batch_size=batch_size, sampler=sampler, triples_factory=triples_factory
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 962, in sub_batch_and_slice
+    sub_batch_size, finished_search, supports_sub_batching = self._sub_batch_size_search(
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        batch_size=batch_size,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        sampler=sampler,
+        ^^^^^^^^^^^^^^^^
+        triples_factory=triples_factory,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 1036, in _sub_batch_size_search
+    self._train(
+    ~~~~~~~~~~~^
+        triples_factory=triples_factory,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        only_size_probing=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/training_loop.py", line 649, in _train
+    train_data_loader = self._create_training_data_loader(
+        triples_factory,
+    ...<5 lines>...
+        sampler=sampler,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/training/slcwa.py", line 67, in _create_training_data_loader
+    raise ValueError(f"Invalid {sampler=}")
+ValueError: Invalid sampler='basic'
+slurmstepd: error: *** JOB 728213 ON tupi1 CANCELLED AT 2025-10-15T12:14:28 DUE TO TIME LIMIT ***

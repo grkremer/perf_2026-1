@@ -3,14 +3,12 @@ import pandas as pd
 import pickle
 
 if __name__ == "__main__":
-    #model_names = ["ConvE","ComplEx","ConvKB","DistMult","TransE","RotatE","R-GCN"]
-    model_names = ["R-GCN"]
+    model_names = ["ConvE","ComplEx","ConvKB","DistMult","TransE","RotatE","R-GCN"]
 
-    dataset_names = [ "DBPedia50"]
+    dataset_names = [ "Nations", "WN18RR", "YAGO3-10"]
     final_df = None
-    #models = []
     output_dir = 'results/'
-    version = 'v10'
+    version = 'v11'
     for dataset in dataset_names:
         for model_name in model_names:
             print(f"Running {model_name} on {dataset}")
