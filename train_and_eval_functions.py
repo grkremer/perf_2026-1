@@ -55,6 +55,8 @@ def run_experiment(model_name: str, dataset_name: str, epochs: int = 100,
 
         # --- Treino + avaliação do PyKEEN
         sampler = "schlichtkrull" if model_name == "R-GCN" else None
+        decomposition = "bases" if model_name == "R-GCN" else None
+        create_inverse_triples = True if model_name in ["ConvE", "CompGCN"] else False
         result = pipeline(
             model=model_name,
             model_kwargs=dict(
@@ -68,7 +70,8 @@ def run_experiment(model_name: str, dataset_name: str, epochs: int = 100,
             negative_sampler_kwargs=dict(
             filtered=True),
             use_tqdm=verbose,
-            evaluation_kwargs=dict(slice_size = slice_size)
+            evaluation_kwargs=dict(slice_size = slice_size),
+            dataset_kwargs=dict(create_inverse_triples = create_inverse_triples),
         )
 
         # --- parar monitoramento

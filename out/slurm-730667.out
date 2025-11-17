@@ -1,0 +1,40 @@
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/users/grkremer/miniconda3
+perf_2026                /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+Retrieving notices: - \ done
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Running ConvE on TransE
+Traceback (most recent call last):
+  File "/home/users/grkremer/perf_2026-1/train_and_eval.py", line 27, in <module>
+    df = run_experiment(model_name=test['model'], dataset_name=test['dataset'], batch_size=256, test_batch_size=128,
+                        epochs=50, device="cuda", seed=1, n_tests = 1, inference_batch_size=1, slice_size=32)
+  File "/home/users/grkremer/perf_2026-1/train_and_eval_functions.py", line 54, in run_experiment
+    dataset = get_dataset(dataset=dataset_name)
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/datasets/utils.py", line 137, in get_dataset
+    if has_dataset(dataset):
+       ~~~~~~~~~~~^^^^^^^^^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/pykeen/datasets/__init__.py", line 132, in has_dataset
+    return dataset_resolver.lookup(key) is not None
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/class_resolver/api.py", line 209, in lookup
+    return get_cls(
+        query,
+    ...<4 lines>...
+        suffix=self.suffix,
+    )
+  File "/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/class_resolver/api.py", line 385, in get_cls
+    raise KeyError(
+        f"Invalid {base.__name__} name: {query} (normalized to: {key}). Valid choices are: {valid_choices}"
+    )
+KeyError: "Invalid Dataset name: TransE (normalized to: transe). Valid choices are: ['aristov4', 'biokg', 'ckg', 'cn3l', 'codexlarge', 'codexmedium', 'codexsmall', 'conceptnet', 'countries', 'cskg', 'db100k', 'dbpedia50', 'drkg', 'fb15k', 'fb15k237', 'globi', 'hetionet', 'kinships', 'nations', 'nationsliteral', 'ogbbiokg', 'ogbwikikg2', 'openbiolink', 'openbiolinklq', 'openea', 'pharmebinet', 'pharmkg', 'pharmkg8k', 'primekg', 'umls', 'wd50kt', 'wikidata5m', 'wk3l120k', 'wk3l15k', 'wn18', 'wn18rr', 'yago310']"
+slurmstepd: error: *** JOB 730667 ON tupi4 CANCELLED AT 2025-11-05T10:46:56 ***

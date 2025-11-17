@@ -1,0 +1,19 @@
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/users/grkremer/miniconda3
+perf_2026                /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Traceback (most recent call last):
+  File "/home/users/grkremer/perf_2026-1/train_and_eval.py", line 24, in <module>
+    print(f"Running {test.model} on {test.dataset}")
+                     ^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'model'

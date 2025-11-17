@@ -1,0 +1,20 @@
+
+# conda environments:
+#
+# *  -> active
+# + -> frozen
+base                 *   /home/users/grkremer/miniconda3
+perf_2026                /home/users/grkremer/miniconda3/envs/perf_2026
+
+2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | done
+
+EnvironmentFileNotFound: '/home/users/grkremer/perf_2026/environment.yml' file not found
+
+/home/users/grkremer/miniconda3/envs/perf_2026/lib/python3.13/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+INFO:pykeen.triples.triples_factory:Creating inverse triples.
+Running CompGCN on WN18RR
+Training epochs on cuda:0:   0%|          | 0/50 [00:00<?, ?epoch/s]INFO:pykeen.triples.triples_factory:Creating inverse triples.
+INFO:pykeen.training.training_loop:Dropping last (incomplete) batch each epoch (1/678 (0.15%) batches).
+Training epochs on cuda:0:   0%|          | 0/50 [00:28<?, ?epoch/s, loss=1.61, prev_loss=nan]Training epochs on cuda:0:   2%|▏         | 1/50 [00:28<23:06, 28.29s/epoch, loss=1.61, prev_loss=nan]Training epochs on cuda:0:   2%|▏         | 1/50 [00:56<23:06, 28.29s/epoch, loss=0.467, prev_loss=1.61]Training epochs on cuda:0:   4%|▍         | 2/50 [00:56<22:37, 28.28s/epoch, loss=0.467, prev_loss=1.61]Training epochs on cuda:0:   4%|▍         | 2/50 [01:25<22:37, 28.28s/epoch, loss=0.223, prev_loss=0.467]Training epochs on cuda:0:   6%|▌         | 3/50 [01:25<22:17, 28.47s/epoch, loss=0.223, prev_loss=0.467]Training epochs on cuda:0:   6%|▌         | 3/50 [01:56<22:17, 28.47s/epoch, loss=0.144, prev_loss=0.223]Training epochs on cuda:0:   8%|▊         | 4/50 [01:56<22:34, 29.44s/epoch, loss=0.144, prev_loss=0.223]Training epochs on cuda:0:   8%|▊         | 4/50 [02:27<22:34, 29.44s/epoch, loss=0.106, prev_loss=0.144]Training epochs on cuda:0:  10%|█         | 5/50 [02:27<22:27, 29.95s/epoch, loss=0.106, prev_loss=0.144]Training epochs on cuda:0:  10%|█         | 5/50 [02:55<22:27, 29.95s/epoch, loss=0.0844, prev_loss=0.106]Training epochs on cuda:0:  12%|█▏        | 6/50 [02:55<21:32, 29.38s/epoch, loss=0.0844, prev_loss=0.106]Training epochs on cuda:0:  12%|█▏        | 6/50 [03:23<21:32, 29.38s/epoch, loss=0.0695, prev_loss=0.0844]Training epochs on cuda:0:  14%|█▍        | 7/50 [03:23<20:47, 29.02s/epoch, loss=0.0695, prev_loss=0.0844]Training epochs on cuda:0:  14%|█▍        | 7/50 [03:51<20:47, 29.02s/epoch, loss=0.0599, prev_loss=0.0695]Training epochs on cuda:0:  16%|█▌        | 8/50 [03:51<20:09, 28.79s/epoch, loss=0.0599, prev_loss=0.0695]Training epochs on cuda:0:  16%|█▌        | 8/50 [04:20<20:09, 28.79s/epoch, loss=0.0535, prev_loss=0.0599]Training epochs on cuda:0:  18%|█▊        | 9/50 [04:20<19:33, 28.63s/epoch, loss=0.0535, prev_loss=0.0599]Training epochs on cuda:0:  18%|█▊        | 9/50 [04:48<19:33, 28.63s/epoch, loss=0.0466, prev_loss=0.0535]Training epochs on cuda:0:  20%|██        | 10/50 [04:48<19:00, 28.52s/epoch, loss=0.0466, prev_loss=0.0535]Training epochs on cuda:0:  20%|██        | 10/50 [05:16<19:00, 28.52s/epoch, loss=0.0424, prev_loss=0.0466]Training epochs on cuda:0:  22%|██▏       | 11/50 [05:16<18:29, 28.44s/epoch, loss=0.0424, prev_loss=0.0466]Training epochs on cuda:0:  22%|██▏       | 11/50 [05:44<18:29, 28.44s/epoch, loss=0.0369, prev_loss=0.0424]Training epochs on cuda:0:  24%|██▍       | 12/50 [05:44<17:58, 28.37s/epoch, loss=0.0369, prev_loss=0.0424]slurmstepd: error: *** JOB 730545 ON tupi4 CANCELLED AT 2025-11-04T14:49:05 ***

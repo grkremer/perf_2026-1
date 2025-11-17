@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -n 16
+#SBATCH -n 2
 #SBATCH -p tupi
-#SBATCH --time=20:00:00
+#SBATCH --time=24:00:00
 WORKDIR=/home/users/grkremer/perf_2026
 
 

@@ -1,20 +1,31 @@
 from train_and_eval_functions import run_experiment
 import pandas as pd
+import numpy as np
 import pickle
+import itertools
+
+def shuffled_tests(models, datasets, times = 5, shuffle = True):
+    models_and_datasets = [
+        {"model": model, "dataset": dataset} for model, dataset in list(itertools.product(models, datasets)) * times
+    ]
+    if shuffle:
+        np.random.shuffle(models_and_datasets)
+    return models_and_datasets
 
 if __name__ == "__main__":
-    model_names = ["ConvE","ComplEx","ConvKB","DistMult","TransE","RotatE","R-GCN"]
+    model_names = ["ConvE", "ComplEx","ConvKB","DistMult","TransE","RotatE"]
 
-    dataset_names = [ "Nations", "WN18RR", "YAGO3-10"]
+    dataset_names = ["Nations", "DBpedia50", "FB15k-237", "WN18RR", "YAGO3-10"]
     final_df = None
     output_dir = 'results/'
-    version = 'v11'
-    for dataset in dataset_names:
-        for model_name in model_names:
-            print(f"Running {model_name} on {dataset}")
-            df = run_experiment(model_name=model_name, dataset_name=dataset, batch_size=256, test_batch_size=32, epochs=50, device="cuda", seed=1, n_tests = 5, inference_batch_size=1)
-            final_df = pd.concat([final_df, df], ignore_index=True)
-            #with open(output_dir + 'model_'+model_name+'_'+dataset+'.pkl', 'wb') as f:
-            #    pickle.dump(model, f)
-            #del model
-            final_df.to_csv(output_dir + 'results_' + version + '.csv', index=False)
+    version = 'v16'
+
+    tests = shuffled_tests(model_names, dataset_names, times = 1, shuffle=False)
+
+    for test in tests:
+        print(f"Running {test['model']} on {test['dataset']}")
+        df = run_experiment(model_name=test['model'], dataset_name=test['dataset'], batch_size=128, test_batch_size=128, 
+                            epochs=50, device="cuda", seed=1, n_tests = 1, inference_batch_size=1, slice_size=32)
+        final_df = pd.concat([final_df, df], ignore_index=True)
+        final_df.to_csv(output_dir + 'results_' + version + '.csv', index=False)
+    
